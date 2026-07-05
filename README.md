@@ -35,7 +35,8 @@ Implement the Java files inside both separate root folders using the package `co
   * Route values to `super()` correctly, and map the battery parameter to its private field.
 * **Encapsulation:** Create a public getter for `batteryCapacityKWh`.
 * **Polymorphism (Method Overriding):**
-  * Override `refuel()`. Because this is an electric car, refueling means recharging! Have it set `fuelLevel` to `100` and print: `"[License Plate] is fully charged up!"`
+  * Override `refuel()`. Because this is an electric car, refueling means recharging! 
+  * Have it set `fuelLevel` to `100` and print: `"[License Plate] is fully charged up!"`
 
 ---
 
