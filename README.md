@@ -21,7 +21,8 @@ Implement the Java files inside both separate root folders using the package `co
   * Protect instantiation values by processing `fuelLevel` through your setter.
 * **Encapsulation Requirements:**
   * Create public getters for both fields.
-  * Create a public setter for `fuelLevel`. Add validation: If the value provided is less than `0`, lock it to `0`. If it is greater than `100`, lock it to `100`. Otherwise, save the valid value.
+  * Create a public setter for `fuelLevel`. Add validation: If the value provided is less than `0`, 
+  * lock it to `0`. If it is greater than `100`, lock it to `100`. Otherwise, save the valid value.
 * **Methods:**
   * `public void refuel()`: Sets `fuelLevel` directly back to `100`.
 
