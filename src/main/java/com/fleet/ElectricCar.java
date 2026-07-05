@@ -15,7 +15,7 @@ public class ElectricCar extends Vehicle {
 
     public void refuel(){
         super.refuel();
-        this.batteryCapacityKWh = 100;// this is not a must but I included it incase a person wanted to recharge
+        this.batteryCapacityKWh = 100;// this is not a must, but I included it incase a person wanted to recharge
         System.out.println(getLicensePlate() + " is fully charged up!");
     }
 
